@@ -1,0 +1,163 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="home.master.cs" Inherits="home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>University a Educational Category Flat Bootstarp Responsive Website Template | Home :: w3layouts</title>
+    <link href="Design/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary JavaScript plugins) -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Custom Theme files -->
+    <link href="Design/css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="University Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="Design/js/jquery.min.js"></script>
+    <script src="Design/js/bootstrap.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- banner -->
+    <div class="banner2">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Design/images/logo edd.jpg" alt="" /></a>
+            </div>
+            <div class="top-menu">
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="home.aspx">Home</a></li>
+                       <%-- <li><a href="login.aspx">Sign In</a></li>      --%>              
+                        <li class="#"><a href="seminars.aspx">Seminar Topics</a></li>
+                        <li><a href="syllabus.aspx">Syllabus</a></li>
+                        <li><a href="notes.aspx">Notes</a></li>
+                        <li><a href="contactus.aspx">Contact</a></li>
+  <li><a href="login.aspx">Log In<span class="glyphicon glyphicon-log-in"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- script-for-menu -->
+            <script>
+                $("span.menu").click(function () {
+                    $("ul.navig").slideToggle("slow", function () {
+                    });
+                });
+            </script>
+            <!-- script-for-menu -->
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!---->
+    <!-- blog-page -->
+    <div class="blog">
+        <div class="container">
+            <%-- <div class="blog-head">
+				<h2>Blog</h2>
+			</div>--%>
+            <div class="col-md-8 blog-left">
+                <form id="form1" runat="server" class="form-inline">
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-md-4 single-page-right">
+
+                <div class="recent-posts">
+                    <h4>Admission Open</h4>
+                    <div class="recent-posts-info" style="margin-bottom: 0px">
+                        <div class="posts-left sngl-img">
+                            <a href="single.html">
+                                <img src="Design/images/ADV22.jpg" class="img-responsive" alt=""/>
+                            </a>
+                        </div>
+                        <div class="posts-right">
+                            <label>Mes-Aimat Marampilly</label>
+                            <%--<h5><a href="single.html">Finibus Bonorum</a></h5>--%>
+                            <p>Admission opened for MCA Dual program is started.For Online Application.</p>
+                            <a href="http://www.mesaimat.ac.in/application_form" class="btn btn-primary hvr-rectangle-in">Read More</a>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <hr />
+                    <div class="recent-posts-info" style="margin-bottom: 0px">
+                        <div class="posts-left sngl-img">
+                            <a href="single.html">
+                                <img src="Design/images/ADV22.jpg" class="img-responsive" alt=""/>
+                        </div>
+                        <div class="posts-right">
+                            <label>Mes-Aimat Marampilly</label>
+                            <%--<h5><a href="single.html">Finibus Bonorum</a></h5>--%>
+                            <p>Admission opened for MBA program is started.For Online Application.</p>
+                            <a href="http://www.mesaimat.ac.in/application_form" class="btn btn-primary hvr-rectangle-in">Read More</a>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+    </div>
+    <!--//blog-->
+    <div class="footer">
+	 <div class="container">
+		 <div class="ftr-sec">
+			 <div class="col-md-4 ftr-grid">
+				 <h3>Edusat</h3>
+				 <p class="auto-style1">EDUSAT is a comprehensive tool providing information to students those who were studying in Colleges.This is a totally web based search engine, its main aim is that provide all education services to students.</p>
+				 <p><span>The portal provides detailed information about latest news, exam notifications, syllabus, textbooks, ppts, pdfs, ebooks, seminar reports</span></p>
+			 </div>
+			 <div class="col-md-4 ftr-grid2">
+				 <h3>Quick Links</h3>
+				 <ul>
+					 <li><a href="home.aspx"><span></span>Home</a></li>
+					 <li><a href="https://www.paypal.com/in/webapps/mpp/home"><span></span>Paypal</a></li>
+					 <li><a href="advertise.aspx"><span></span>Advertise</a></li>
+					 <li><a href="contactus.aspx"><span></span>Contact</a></li>	
+				     <li><a href="tandc.aspx"><span></span>Terms&Conditions</a></li>
+				 </ul>
+			 </div>
+			 <div class="col-md-4 ftr-grid3">
+				 <h3>Follow Us</h3>
+				 <ul>
+					 <li><a href="https://www.facebook.com/"><span></span>Facebook</a></li>
+					 <li><a href="https://twitter.com/"><span></span>Twitter</a></li>
+					 <li><a href=""https://plus.google.com/collections/featured><span></span>Google Plus</a></li>
+					 <li><a href=https://www.instagram.com/accounts/login/""><span></span>Instagram</a></li>	
+					 <li><a href="https://web.whatsapp.com/%F0%9F%8C%90/en"><span></span>Whatsapp</a></li>
+					
+				 </ul>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+    <%--<!---->
+    <div class="copywrite">
+        <div class="container">
+            <p>2016 © Edusat. All rights reserved | Design by Edusat Technologies</p>
+        </div>
+    </div>--%>
+
+    <div class="copywrite">
+        <div class="container">
+            <p>2016 © Edusat. All rights reserved | Design by Edusat Technologies</p>
+        </div>
+    </div>
+
+    <!--content here-->
+
+
+</body>
+</html>
